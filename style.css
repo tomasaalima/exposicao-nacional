@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #003D59, #006999, #009DE6, #0083BF) ;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+}
+
+
+.cabecalho-menu-item {
+    font:normal 400 1.1em 'Quicksand', sans-serif;
+    color: white;
+
+}
+
+
+.conteudo {
+    margin-bottom: 80px;
+    border-top: 0.4px solid white;
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+
+.conteudo-principal-escrito-titulo {
+    font: normal 700 3em 'passion one', sans-serif;
+    color: #43AEDF;
+    text-shadow: 2px 2px 1px black;
+}
+
+
+.conteudo-principal-escrito-subtitulo {
+    font: normal 400 2em 'Quicksand', sans-serif;
+    color: white;
+}
+
+
+.conteudo-principal-mapa {
+    height: 600px;
+}
+
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 48px;
+}
+
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font: normal 700 2em 'passion one', sans-serif;
+    color: #43AEDF;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 1px black;
+}
+
+
+.conteudo-secundario-paragrafo {
+    font: normal 300 1em 'Quicksand', sans-serif;
+    color: white;
+}
+
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+
+
+.rodape-titulo {
+    display: flex;
+    margin: 0 auto;
+    color: white;
+}
+
+/* botton: hover */
+
+#svg-map path { 
+    fill:#0094d9 
+}
+#svg-map text { 
+    fill:#fff; 
+    font:12px Arial-BoldMT, sans-serif;
+    cursor:pointer 
+}
+#svg-map a{ 
+    text-decoration:none 
+}
+#svg-map a:hover { 
+    cursor:pointer; 
+    text-decoration:none 
+}
+#svg-map a:hover path{ 
+    fill:#003399 !important 
+}
+#svg-map .circle { 
+    fill:#66ccff 
+}
+#svg-map a:hover .circle { 
+    fill:#003399 !important; 
+    cursor:pointer 
+}
